@@ -1,69 +1,78 @@
-# [Start Bootstrap - Coming Soon](https://startbootstrap.com/themes/coming-soon/)
+# The Anime Radio - Coming Soon Page
 
-[Coming Soon](https://startbootstrap.com/themes/coming-soon/) is a simple coming soon theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a background video with a mobile background image fallback.
+This repository contains the code for a "Coming Soon" page for The Anime Radio. It is designed to be a placeholder while the main website is under development. This project serves as a basic template that can be easily customized and deployed for any project requiring a coming soon or under construction page.
 
-## Preview
+## Repository Structure
 
-[![Coming Soon Preview](https://startbootstrap.com/assets/img/screenshots/themes/coming-soon.png)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
+The repository is organized as follows:
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-coming-soon/)**
+- **HTML**:
+  - `index.html`: The main HTML file that serves as the structure of the "Coming Soon" page.
+  
+- **CSS**:
+  - `styles.css`: Contains the styling rules for the "Coming Soon" page, including layout, colors, and fonts.
+  
+- **JavaScript**:
+  - `script.js`: Manages the countdown timer and other interactive elements of the page.
+  
+- **Assets**:
+  - `images/`: Contains all image assets used in the page, such as logos, backgrounds, and icons.
+  - `fonts/`: Includes custom fonts used on the page for a unique look and feel.
 
-## Status
+## Features
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-coming-soon/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-coming-soon.svg)](https://www.npmjs.com/package/startbootstrap-coming-soon)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-coming-soon.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-coming-soon)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon?type=dev)
+- **Countdown Timer**: A dynamic countdown timer that displays the time remaining until the site launch.
+- **Responsive Design**: The page is fully responsive, ensuring it looks good on all device sizes.
+- **Customizable Content**: Easily update the text, images, and links to suit your project's needs.
 
-## Download and Installation
+## Getting Started
 
-To begin using this template, choose one of the following options to get started:
+### Prerequisites
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/themes/coming-soon/)
-* Install via npm: `npm i startbootstrap-coming-soon`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-coming-soon.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-coming-soon)
+To run or customize this "Coming Soon" page, you will need:
 
-## Usage
+- A basic text editor (e.g., VSCode, Sublime Text)
+- A modern web browser for testing
 
-### Basic Usage
+### Running Locally
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/theanimeradio-comingsoon.git
+   cd theanimeradio-comingsoon
+   ```
 
-### Advanced Usage
+2. Open the `index.html` file in your preferred web browser to see the "Coming Soon" page in action.
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+3. To customize the content:
+   - Open `index.html` to modify the text and structure.
+   - Edit `styles.css` to change the visual style.
+   - Update `script.js` for any additional functionality.
 
-#### Gulp Tasks
+### Deployment
 
-* `gulp` the default task that builds everything
-* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-* `gulp js` minifies the themes JS file
-* `gulp vendor` copies dependencies from node_modules to the vendor directory
+You can deploy this page to any static site hosting service, such as GitHub Pages, Netlify, or Vercel. Simply upload the contents of the repository, and your "Coming Soon" page will be live.
 
-You must have npm installed globally in order to use this build environment.
+## Future Enhancements
 
-## Bugs and Issues
+This is an initial version of the "Coming Soon" page. Future improvements could include:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-coming-soon/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/themes/coming-soon/).
+- Integration with an email subscription service
+- Addition of social media links
+- Animation effects for enhanced user experience
 
-## About
+## Contributing
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Contributions are welcome! If you have ideas for improvements or find any issues, feel free to fork the repository and submit a pull request.
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
+## License
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerskt>
-* <https://github.com/davidtmiller>
+## Acknowledgments
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Thanks to the developers and designers who create and share resources that make projects like this possible. This page was inspired by the desire to create a simple yet effective "Coming Soon" template that can be easily adapted for various projects.
 
-## Copyright and License
+---
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/gh-pages/LICENSE) license.
+Thank you for using this template! If you find it useful, please consider starring the repository on GitHub and sharing it with others.
